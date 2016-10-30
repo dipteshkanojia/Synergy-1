@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/lib/common/../../../config.h
+
+../../src/lib/common/../common/Version.h
+common/common.h
+../../src/lib/common/../common/common/common.h
+
+../../src/lib/common/../common/common.h
+config.h
+../../src/lib/common/../common/config.h
+sys/types.h
+-
+sys/socket.h
+-
+wchar.h
+-
+stddef.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/safeer/Documents/synergy/src/lib/common/Version.cpp
+common/Version.h
+/home/safeer/Documents/synergy/src/lib/common/common/Version.h
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/safeer/Documents/synergy/src/micro/uSynergy.c
+uSynergy.h
+/home/safeer/Documents/synergy/src/micro/uSynergy.h
+stdio.h
+-
+string.h
+-
+
+/home/safeer/Documents/synergy/src/micro/uSynergy.h
+stdint.h
+-
+

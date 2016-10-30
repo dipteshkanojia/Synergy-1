@@ -2,9 +2,6 @@ config.h
 *.pyc
 *~
 \.*.swp
-/bin
-/lib
-/build
 /CMakeFiles
 /ext/cryptopp562
 /ext/gmock-1.6.0
