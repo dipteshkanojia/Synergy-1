@@ -10,7 +10,4 @@ or without changes.
 Just use "hm conf" and "hm build" to compile (./hm.sh on
 Linux and Mac).
 
-For detailed compile instructions:
-https://github.com/symless/synergy/wiki/Compiling
-
-Happy hacking!
+Modified hm.sh to invoke python2 rather than python3(default).
