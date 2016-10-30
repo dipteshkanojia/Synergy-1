@@ -11,3 +11,5 @@ Just use "hm conf" and "hm build" to compile (./hm.sh on
 Linux and Mac).
 
 Modified hm.sh to invoke python2 rather than python3(default).
+
+Contains binaries & .deb files (build on x86-64 Ubuntu 16.04LTS)
