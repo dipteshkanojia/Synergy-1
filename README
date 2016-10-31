@@ -13,3 +13,16 @@ Linux and Mac).
 Modified hm.sh to invoke python2 rather than python3(default).
 
 Contains binaries & .deb files (build on x86-64 Ubuntu 16.04LTS)
+
+To build on Ubuntu:
+  Install Dependencies
+   sudo apt-get install cmake make g++ xorg-dev libqt4-dev libcurl4-openssl-dev libavahi-compat-libdnssd-dev libssl-dev libx11-dev
+  Compiling
+    ./hm.sh conf -g1
+     ./hm.sh build
+  Making .deb 
+    hm package [deb] 
+
+
+Orignal repo: https://github.com/symless/synergy
+Detailed Build Instructions: https://github.com/symless/synergy/wiki/Compiling
